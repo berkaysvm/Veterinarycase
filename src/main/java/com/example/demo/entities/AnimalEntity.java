@@ -4,10 +4,10 @@ import javax.persistence.*;
 
 @Entity
 @Table(name="animal")
-public class animalEntity {
+public class AnimalEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Long id;
 
